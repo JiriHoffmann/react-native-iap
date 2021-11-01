@@ -46,7 +46,7 @@ import com.facebook.react.uimanager.ViewManager
 
 class RNIapPackage : ReactPackage {
 
-    override fun createJSModules(): MutableList<Class<out JavaScriptModule>> {
+    fun createJSModules(): MutableList<Class<out JavaScriptModule>> {
         return mutableListOf()
     }
 
